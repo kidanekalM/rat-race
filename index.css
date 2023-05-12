@@ -1,0 +1,118 @@
+*{
+    /* box-sizing:content-box; */
+    box-sizing: border-box;
+}
+.wrapper{
+    box-sizing: border-box;
+    height: 80vh;
+    width: 90vw;
+    margin: 10vh 5vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10vw;
+    display: grid;
+}
+.center{
+    align-self: center;
+    justify-self: center;
+    height: 70%;
+    width: 80%;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: inherit;
+
+}
+.place{
+    display: flex;
+    align-items: end;
+    background-color: rgb(255, 255, 255);
+    background-image: radial-gradient(rgb(238, 237, 237),rgb(235, 235, 235));
+    box-shadow: 0px 0px 5px 1px ;
+    border-radius: 100% 100% 0px 0px;
+    text-align: center;
+    height: 90px;
+    width: 100px;
+    z-index: 1;
+}
+.place h3{
+    align-self:baseline;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.home{
+    position: absolute;
+}
+.work{
+    position: absolute;
+    left: 80%;
+}
+.school{
+    position: absolute;
+    left: 80%;
+    top: 80%;
+}
+
+.ratwrapper{
+    border-left: 5px solid grey;
+    border-top: 5px solid grey;
+    width: max-content;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    z-index: 4;
+}
+.rat{
+    height: 25px;
+    width: 80px;
+    border-radius: 200px 500px 0px 0px;
+    align-self: flex-end;
+    box-shadow: 0px 1px 10px;
+    background-color: grey;
+    display: grid;
+    position: relative;
+    z-index: 2;
+}
+.face{
+    justify-self: end;
+    /* align-self: center; */
+    display: flex;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid red; */
+}
+.ear{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-image:radial-gradient(rgb(180, 180, 180),rgb(80, 80, 80));
+    border: 2px solid grey;
+    justify-self: end;
+    align-self:baseline;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.nose{
+    height: 4px;
+    width: 7px;
+    border-radius: 100%;
+    background-color: rgb(109, 108, 108);
+    border: .5px solid black;
+    justify-self: end;
+    align-self: end;   
+}
+.eye{
+    height: 5px;
+    width: 7px;
+    border-radius: 100%;
+    background-color: white;
+    background-image:radial-gradient(rgb(255, 255, 255),rgb(14, 14, 14));
+    border: .5px solid black;
+    /* justify-self: end; */
+    align-self: center;  
+    position: relative;
+    z-index: 2; 
+}

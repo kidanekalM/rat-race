@@ -15,7 +15,7 @@ right = "70vw"
 setInterval(function(){
     alert("You lose: You lived too long!")
     location.reload()
-},5000);
+},3000);
 document.body.addEventListener('keypress',function (k) {
     idChar(k.key);
 })
